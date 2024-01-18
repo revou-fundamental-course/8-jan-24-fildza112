@@ -1,0 +1,91 @@
+body {
+  font-family: Verdana, Geneva, Tahoma;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  color: hwb(0 100% 0%);
+  background-color: darkblue;
+  padding: 30px;
+}
+header h2 {
+  margin-top: 32px;
+  color: darkslateblue;
+}
+header h3 {
+  text-align: center;
+  background-color: cornflowerblue;
+  font-size: medium;
+  padding: 20px;
+  color: white;
+}
+header button {
+  background-color: deepskyblue;
+  outline: none;
+}
+
+header p {
+  margin-top: -10px;
+  font-size: smaller;
+  color: blue;
+}
+
+img.tengah {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#luasPersegi {
+  text-align: center;
+}
+#kelilingPersegi {
+  text-align: center;
+}
+
+#squareSide {
+  border-radius: 6%;
+  outline: none;
+  border: solid black;
+  padding: 10px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: column;
+}
+
+#squareSide:focus {
+  border: solid burlywood;
+}
+
+button {
+  background-color: darkslategrey;
+  color: beige;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button.disabled {
+  background-color: burlywood;
+}
+
+button:hover {
+  background-color: darkkhaki;
+}
+
+button:active {
+  background-color: darkgoldenrod;
+  transform: translateY(2px);
+}
+
+h4 {
+  text-align: center;
+  background-color: cornflowerblue;
+  font-size: medium;
+  padding: 20px;
+  color: white;
+}
